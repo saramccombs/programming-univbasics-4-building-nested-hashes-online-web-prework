@@ -2,7 +2,7 @@ def base_hash
   # Remember implicit return! We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
   
-	{:railroads => {}}
+	monopoly = {:railroads => {}}
 end
 
 def monopoly_with_second_tier
@@ -11,7 +11,8 @@ def monopoly_with_second_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   
-  	{:railroads => {
+  	monopoly = {
+  	  :railroads => {
   	  :pieces => 4
   	  
   	  }
@@ -24,7 +25,8 @@ def monopoly_with_third_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   
-  {:railroads => {
+  monopoly = {
+    :railroads => {
   	  :pieces => 4,
   	  :names => {
   	    :reading_railroad => {},
@@ -48,7 +50,8 @@ def monopoly_with_fourth_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   
-  {:railroads => {
+  monopoly = {
+    :railroads => {
   	  :pieces => 4,
   	  :names => {
   	    :reading_railroad => {},
